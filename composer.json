@@ -1,0 +1,23 @@
+{
+  "name": "bojanbogdanovic/php-google-my-business",
+  "type": "library",
+  "description": "Google MyBusiness",
+  "keywords": [
+    "google my business"
+  ],
+  "homepage": "https://github.com/bojanbogdanovic/php-google-my-business",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Google"
+    }
+  ],
+  "require": {
+    "google/apiclient": ">=2.0"
+  },
+  "autoload": {
+    "files": [
+      "MyBusiness.php"
+    ]
+  }
+}
